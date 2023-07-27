@@ -1,0 +1,27 @@
+.display {
+  transition: all 0.2s linear 0.1s;
+  display: grid;
+  gap: 30px;
+  margin: auto 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+body {
+  background-color: rgb(211, 230, 247);
+}
+.searchBar {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.search {
+  position: relative;
+  background-color: #eff0f3;
+  border-radius: 20px;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+.searchIcon {
+  position: absolute;
+  align-self: center;
+  margin-left: 150px;
+}

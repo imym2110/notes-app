@@ -1,0 +1,48 @@
+.body {
+  background-color: #eff0f3;
+  padding: 1px;
+}
+
+.container {
+  display: flex;
+  margin: 10px auto;
+  flex-direction: column;
+  width: 30%;
+}
+.title {
+  padding-left: 10px;
+  margin: 10px auto;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  background-color: #6146eab6;
+  color: white;
+  font-weight: 600;
+  width: 250px;
+  border: 1px solid black;
+}
+.title::-webkit-input-placeholder {
+  color: white;
+  font-weight: 600;
+}
+.notes_textarea {
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: #e4e5e9;
+}
+.submit {
+  background-color: #6146eab6;
+  color: white;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 15px auto 0px auto;
+  width: 100px;
+  transition: all 0.1s linear 0.1s;
+}
+.submit:hover {
+  background-color: rgba(249, 79, 36, 0.794);
+}
+.errormsg {
+  color: red;
+  margin: 10px auto;
+}

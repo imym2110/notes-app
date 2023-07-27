@@ -1,0 +1,35 @@
+.body {
+  /* background-color: rgb(183, 215, 242); */
+  border-radius: 15px;
+}
+.container {
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(163 207 247);
+  border: 1px solid black;
+  /* margin-left: 10px; */
+  border-radius: 15px;
+}
+
+.title {
+  margin: auto;
+}
+.para {
+  padding: 0px 10px 10px 10px;
+}
+.delete {
+  position: absolute;
+  background-color: #94add7;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px auto 10px 210px;
+  width: 90px;
+  transition: all 0.1s linear 0.1s;
+}
+.delete:hover {
+  background-color: #c3beec;
+}
